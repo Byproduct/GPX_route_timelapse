@@ -130,6 +130,13 @@ def main():
     
     add_timestamp_to_image(copied_image_path, gpx_filenames_with_dates[-1][1], year_only=True)  # Stamp an extra image with just the year (no month or day in the last image)
 
+    # Create images.txt for use with ffmpeg
+    textfile_path = os.path.join(current_directory, 'output', 'images.txt')
+    with open(textfile_path, "w", encoding = 'utf-8') as f:
+        for image_path in image_paths:
+            f.write(f"file '{image_path}'\n")
+        f.write(f"file '{copied_image_path}'")
+    
     print('\r                                                                                                                       \r')
     
     print('All done ^_^ _b')
