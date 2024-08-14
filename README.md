@@ -31,5 +31,5 @@ Turn them into a video any way you like.
 
 Have fun! If you have questions, the best way to reach me is [discord](http://discordapp.com/users/244907716231954442).
 
-[Youtube link to script demonstration video](https://www.youtube.com/watch?v=OBF14k_oCPE)
+[Youtube link to a demonstration video](https://www.youtube.com/watch?v=OBF14k_oCPE)
 
