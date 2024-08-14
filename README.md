@@ -14,7 +14,7 @@ Needs python. Tested only on Windows.
   - If you're using a workout tracking service that doesn't have a mass gpx export feature, there may be browser scripts that do it for you.
   - [GPS track editor](http://www.gpstrackeditor.com/) is a nice free program to edit .gpx files in case they need tidying up.
 
-### 2. Optional: check configuration.py to adjust the way it looks.
+### 2. Check configuration.py to adjust settings (optional).
 
 ### 3. Run **workout_map.py**
   - May require to (pip) install folium, gpxpy, pillow, selenium
