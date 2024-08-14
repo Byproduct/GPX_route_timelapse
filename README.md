@@ -25,6 +25,7 @@ Turn them into a video any way you like.
    - You could also use ffmpeg. An 'images.txt' file is automatically created in the output folder. For example this should work:
      `ffmpeg -r 4 -f concat -safe 0 -i images.txt -r 60 timelapse.mp4`   
 
+Have fun! If you have questions, the best way to reach me is [discord](http://discordapp.com/users/244907716231954442) .
 
 
 [Youtube link to script demonstration video](https://www.youtube.com/watch?v=OBF14k_oCPE)
