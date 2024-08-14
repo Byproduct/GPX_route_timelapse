@@ -25,7 +25,7 @@ Turn them into a video any way you like.
      `ffmpeg -r 4 -f concat -safe 0 -i images.txt -r 60 timelapse.mp4`   
 
 ### 4. Edit configuration.py
-... if you want to adjust the resolution, map position and zoom level, map tileset etc.
+... if you want to adjust the resolution, map position, zoom level, map tileset etc.
 
 
 Have fun! If you have questions, the best way to reach me is [discord](http://discordapp.com/users/244907716231954442) .
