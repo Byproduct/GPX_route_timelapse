@@ -15,7 +15,7 @@ Needs python. Tested only on Windows.
   - [GPS track editor](http://www.gpstrackeditor.com/) is a nice free program to edit .gpx files in case they need tidying up.
 
 ### 2. Run **workout_map.py**
-  - May require to (pip) install folium, gpxpy, pillow, selenium
+  - May be required to (pip) install folium, gpxpy, pillow, selenium
 
 ### 3. Image files will be created in the 'output' folder. 
 Turn them into a video any way you like.
