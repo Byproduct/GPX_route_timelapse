@@ -10,7 +10,7 @@ This combines and creates HTML maps using gpxpy, then captures them using seleni
 Needs python. Tested only on Windows.
 
 ### 1. Put your .gpx files in the 'input' folder. 
-  - Best results if you include files from just one region.
+  - Best results if you include records from just one region.
   - If you're using a workout tracking service that doesn't have a mass gpx export feature, there may be browser scripts that do it for you.
   - [GPS track editor](http://www.gpstrackeditor.com/) is a great free program to edit .gpx files in case they need tidying up.
 
