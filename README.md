@@ -20,7 +20,8 @@ Needs python. Tested only on Windows.
 ### 3. Image files will be created in the 'output' folder. 
 Turn them into a video any way you like.
    - One free and easy way is to use [DaVinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve). From preferences->user->editing select standard transition and still duration (e.g. 15 frames for a 60fps video), then drag the images onto the timeline, and (optionally) add the default transition to each with ctrl+t.
-   - You could also use ffmpeg. An 'images.txt' file is automatically created in the output folder. For example this should work:
+   - You could also use ffmpeg. An 'images.txt' file is automatically created in the output folder. Something like this should work:
+
      `ffmpeg -r 4 -f concat -safe 0 -i images.txt -r 60 timelapse.mp4`   
 
 ### 4. Edit configuration.py
