@@ -1,11 +1,12 @@
 # GPX route timelapse
 Make (sort of) timelapse videos of your gpx route files! 
 
-[Youtube link to example video](https://www.youtube.com/watch?v=uFagBApJx_A)
+[Youtube link to an example video](https://www.youtube.com/watch?v=uFagBApJx_A)
 
 ## How it works
 
-This program combines and creates HTML maps using gpxpy, then captures them using selenium (chrome).
+This combines and creates HTML maps using gpxpy, then captures them using selenium (chrome).
+
 Needs python. Tested only on Windows.
 
 
