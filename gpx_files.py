@@ -89,11 +89,15 @@ def get_gpx_filenames_and_dates():
     for filename in os.listdir(INPUT_FOLDER):
         if filename.endswith('.gpx'):
             file_path = os.path.join(current_directory, INPUT_FOLDER, filename)
-            dt = get_datetime_from_gpx(file_path)
-            file_date = dt
-            if file_date:
-                files_with_dates.append((file_path, file_date))
-            print(f'\r{filename}: {dt}                   ', end='', flush=True)
-    files_with_dates.sort(key=lambda x: x[1])
+            file_date = get_datetime_from_gpx(file_path)
+            if file_date == None:
+                file_date = datetime.now()
+            files_with_dates.append((file_path, file_date))
+            print(f'\r{filename}: {file_date}                   ', end='', flush=True)
+            
+    if SORT_BY_NAME:
+        files_with_dates.sort(key=lambda x: os.path.basename(x[0]).lower())
+    else:  # Default sorting by date
+        files_with_dates.sort(key=lambda x: x[1])
     print(f'\r                                                  ')
     return files_with_dates
