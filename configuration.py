@@ -23,6 +23,9 @@ YEAR_COLORS = {
     2024: '#FF88FF'
 }
 
+# GPX files are sorted by date by default - but can sorted by name too.
+SORT_BY_NAME = False
+
 # Use False for default map tiles, or True for better-looking 'Alidade Smooth' map tiles. The latter requires a Stadia API key, but you can get one for free.
 ALIDADE_MAP = False
 STADIA_API_KEY = 'your stadia API key here'
